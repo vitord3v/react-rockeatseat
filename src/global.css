@@ -8,7 +8,10 @@
     --gray-800: #202024;
     --gray-900: #121214;
 
+    --green-300: #00b37E;
     --green-500: #00875f;
+
+    --red-500: #f75A68;
 }
 
 * {
@@ -17,7 +20,18 @@
     box-sizing: border-box;
 }
 
+:focus {
+    outline: transparent;
+}
+
 body {
     background-color: var(--gray-900);
     color: var(--gray-300);
+    -webkit-font-smooting: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
